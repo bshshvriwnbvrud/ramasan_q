@@ -1,0 +1,164 @@
+/* Luxurious Ramadan Theme */
+:root {
+    --primary-gold: #f7b731;
+    --secondary-gold: #ffd966;
+    --deep-indigo: #0b1a33;
+    --royal-blue: #1a3a5f;
+    --soft-white: #f8f9fa;
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-border: rgba(255, 255, 255, 0.2);
+    --gold-gradient: linear-gradient(135deg, #f7b731 0%, #ffd966 100%);
+    --dark-gradient: linear-gradient(145deg, #0b1a33 0%, #1a3a5f 100%);
+}
+
+body {
+    background: var(--dark-gradient);
+    color: var(--soft-white);
+    font-family: 'Tajawal', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--deep-indigo);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary-gold);
+    border-radius: 10px;
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--glass-border);
+    border-radius: 25px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.glass-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border-color: var(--primary-gold);
+}
+
+/* Luxurious Buttons */
+.btn-lux {
+    background: var(--gold-gradient);
+    color: var(--deep-indigo) !important;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-lux::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+    transition: left 0.5s;
+    z-index: -1;
+}
+
+.btn-lux:hover::before {
+    left: 100%;
+}
+
+.btn-lux:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(247, 183, 49, 0.4);
+}
+
+/* Animated Background Pattern */
+.bg-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l15 30-15 30-15-30z' fill='%23f7b731' fill-opacity='0.03'/%3E%3C/svg%3E");
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Typography Enhancements */
+h1, h2, h3, .fw-black {
+    font-weight: 900;
+    background: var(--gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Navbar Enhancements */
+.navbar-lux {
+    background: rgba(11, 26, 51, 0.8) !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.nav-link-lux {
+    color: var(--soft-white) !important;
+    font-weight: 500;
+    margin: 0 10px;
+    position: relative;
+}
+
+.nav-link-lux::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-gold);
+    transition: width 0.3s ease;
+}
+
+.nav-link-lux:hover::after {
+    width: 100%;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--deep-indigo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.loader-content {
+    text-align: center;
+}
+
+.loader-moon {
+    font-size: 4rem;
+    color: var(--primary-gold);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+}
