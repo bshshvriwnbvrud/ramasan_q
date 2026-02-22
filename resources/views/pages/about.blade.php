@@ -72,11 +72,11 @@
                                 </div>
                                 <div>
                                     <h5 style="color: var(--primary-gold);">المطورون</h5>
-                                    <p style="color: rgba(255,255,255,0.8);">تم تطوير هذا الموقع بواسطة فريق طلابي من قسم تقنية المعلومات، بإشراف د. محمد عبدالله.</p>
+                                    <p style="color: rgba(255,255,255,0.8);">تم تطوير هذا الموقع بواسطة فريق  من قسم تقنية المعلومات، بإشراف .  مكتب الملتقئ : محمد جابر وهاج .</p>
                                     <ul class="list-unstyled" style="color: rgba(255,255,255,0.8);">
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> أحمد علي - قائد الفريق</li>
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> فاطمة صالح - مطور واجهات</li>
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> عبدالله محمود - مطور خلفية</li>
+                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> (776785244)عبد الله صالح قايد جابر  - مطور الموقع</li>
+                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> (774676892)محمد محمد قايد جابر - مطور الموقع</li>
+                                        
                                     </ul>
                                 </div>
                             </div>
