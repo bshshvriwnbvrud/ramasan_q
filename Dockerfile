@@ -21,9 +21,7 @@ RUN composer install --no-dev --optimize-autoloader \
 
 # Create SQLite DB and run migrations
 RUN mkdir -p /app/database && touch /app/database/database.sqlite \
-    && php artisan migrate --force \
     && php artisan config:clear \
-    && php artisan cache:clear \
     && php artisan view:clear
 
 # Expose port
