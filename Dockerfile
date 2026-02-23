@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
-    git unzip zip curl libonig-dev libxml2-dev \
+    git unzip zip curl libonig-dev libxml2-dev default-mysql-client \
     && docker-php-ext-install pdo pdo_mysql mbstring xml
 
 # Install Composer
@@ -15,14 +15,14 @@ COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 # Copy project files
 COPY . /app
 
-# Install PHP dependencies (without dev packages for production)
-RUN composer install --no-dev --optimize-autoloader \
-    || composer install --ignore-platform-reqs --no-dev --optimize-autoloader
+# Install PHP dependencies
+RUN composer install --no-dev --optimize-autoloader
 
-# Create SQLite DB and run migrations
-RUN mkdir -p /app/database && touch /app/database/database.sqlite \
-    && php artisan config:clear \
-    && php artisan view:clear
+# Clear caches
+RUN php artisan config:clear \
+    && php artisan view:clear \
+    && php artisan route:clear \
+    && php artisan cache:clear
 
 # Expose port
 EXPOSE 9000
