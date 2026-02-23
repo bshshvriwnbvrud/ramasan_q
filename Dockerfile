@@ -20,7 +20,8 @@ RUN composer install --no-dev --optimize-autoloader \
     || composer install --ignore-platform-reqs --no-dev --optimize-autoloader
 
 # Clear caches
-RUN php artisan config:clear \
+RUN mkdir -p /app/database && touch /app/database/database.sqlite \
+    && php artisan config:clear \
     && php artisan cache:clear \
     && php artisan view:clear
 
