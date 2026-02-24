@@ -1,2 +1,2 @@
 [php.extensions]
-install = ["zip", "sodium", "opcache"]
+install = ["zip", "gd", "ctype", "curl", "dom", "fileinfo", "filter", "hash", "mbstring", "openssl", "pcre", "pdo", "session", "tokenizer", "xml", "sodium", "opcache"]
