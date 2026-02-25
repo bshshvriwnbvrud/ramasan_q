@@ -1,4 +1,5 @@
 <?php
+// routes/web.php
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
@@ -15,6 +16,7 @@ use App\Http\Controllers\Student\AttemptController;
 use App\Http\Controllers\Student\LeaderboardController;
 use App\Http\Controllers\Student\WelcomeController;
 use App\Http\Controllers\Student\ProfileController;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,6 +78,19 @@ Route::middleware(['auth', 'approved'])->group(function () {
 
     // Leaderboard
     Route::get('/leaderboard', [LeaderboardController::class, 'index'])->name('student.leaderboard');
+
+    // Messages (Student side)
+    Route::get('/messages', [MessageController::class, 'studentIndex'])->name('student.messages');
+});
+
+/*
+|--------------------------------------------------------------------------
+| Shared Authenticated Routes (for sending messages and polling)
+|--------------------------------------------------------------------------
+*/
+Route::middleware(['auth'])->group(function () {
+    Route::post('/messages/send', [MessageController::class, 'send'])->name('messages.send');
+    Route::get('/messages/poll', [MessageController::class, 'poll'])->name('messages.poll');
 });
 
 /*
@@ -162,6 +177,14 @@ Route::prefix('admin')->middleware(['auth', 'role:admin'])->group(function () {
     Route::post('/competitions/{competition}/reset-attempt/{user}', [AttemptController::class, 'resetForUser'])
         ->name('admin.competitions.reset_attempt')
         ->whereNumber(['competition', 'user']);
+
+    // Messages (Admin side)
+    Route::get('/messages', [MessageController::class, 'adminIndex'])->name('admin.messages.index');
+    Route::get('/messages/{user}', [MessageController::class, 'adminConversation'])
+        ->name('admin.messages.conversation')
+        ->whereNumber('user');
+    // مسار إرسال الرسالة للأدمن (يستخدم نفس الـ controller مع اسم مختلف لتجنب التعارض)
+    Route::post('/messages/send', [MessageController::class, 'send'])->name('admin.messages.send');
 });
 
 /*

@@ -20,6 +20,9 @@
     <a href="{{ route('admin.profile_requests.index') }}" class="nav-link {{ request()->routeIs('admin.profile_requests*') ? 'active' : '' }}">
         <i class="bi bi-person-check me-2"></i> طلبات تعديل البيانات
     </a>
+    <a href="{{ route('admin.messages.index') }}" class="nav-link {{ request()->routeIs('admin.messages*') ? 'active' : '' }}">
+        <i class="bi bi-chat-dots me-2"></i>الاستفسارات
+    </a>
 </div>
 
 <style>

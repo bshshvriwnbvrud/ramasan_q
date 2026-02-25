@@ -455,6 +455,11 @@
                                 <a class="nav-link" href="{{ route('editor.questions.index') }}">إدارة الأسئلة</a>
                             </li>
                         @endif
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('student.messages') }}">
+                               <i class="bi bi-chat-dots me-1"></i>الاستفسارات
+                            </a>
+                        </li>
                     @endauth
                 </ul>
                 <ul class="navbar-nav">
