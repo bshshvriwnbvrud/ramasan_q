@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- الفريق المنظم -->
+                        <!-- الفريق المنظم (محدث) -->
                         <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                             <div class="d-flex">
                                 <div class="me-3">
@@ -57,12 +57,14 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">الفريق المنظم</h5>
-                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">يشرف على المسابقة نخبة من أعضاء هيئة التدريس بالكلية، بدعم من عمادة الكلية وإدارة الجامعة.</p>
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">الفريق المنظّم</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">
+                                        يشرف على المسابقة مسؤول الملتقى الطلابي وإدارة الأنشطة في الكلية، وذلك ضمن جهود مستمرة تهدف إلى تنظيم فعاليات متميّزة تعزّز روح المشاركة وتدعم مواهب الطلبة. ويأتي هذا الإشراف لضمان تعزيز الاستفادة والتزود بهدي القرآن وتحقيق أعلى درجات المتابعة والاهتمام بمجريات المسابقة.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <!-- المطورون والمكتب -->
+                        <!-- المطورون (محدث) -->
                         <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                             <div class="d-flex">
                                 <div class="me-3">
@@ -71,11 +73,24 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">المطورون</h5>
-                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">تم تطوير هذا الموقع بواسطة فريق من قسم تقنية المعلومات، بإشراف مكتب الملتقئ: <strong class="text-warning">محمد جابر (وهاج)</strong>.</p>
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">المطوّرون</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">
+                                        تم تطوير الموقع بواسطة مجموعة من المطوّرين المجاهدين الذين بذلوا جهدًا كبيرًا في إعداد المنصّة وتحسين تجربتها بما يخدم أهداف المسابقة واحتياجات المشاركين، وعملوا بإخلاص على إنجاز مراحل التطوير وتقديم الدعم الفني، مما يعكس حرصهم على توفير موقع فعّال، متكامل، وسهل الاستخدام للجميع.
+                                    </p>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; margin-top: 15px;">
+                                        وقد تم تنفيذ العمل تحت إشراف مكتب الملتقى الطلابي:
+                                    </p>
                                     <ul class="list-unstyled" style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif;">
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> <strong>عبد الله صالح قايد جابر</strong> <span style="direction: ltr; display: inline-block;">(776785244)</span> - مطور الموقع</li>
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> <strong>محمد محمد قايد جابر</strong> <span style="direction: ltr; display: inline-block;">(774676892)</span> - مطور الموقع</li>
+                                        <li class="mb-3">
+                                            <i class="bi bi-person-circle me-2" style="color: var(--primary-gold); font-size: 1.2rem;"></i>
+                                            <strong>الأخ المجاهد / محمد محمد قايد جابر – ( وهاج )</strong>
+                                            <span style="direction: ltr; display: inline-block; margin-right: 10px; font-family: monospace;">{+967 774 676 892}</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-person-circle me-2" style="color: var(--primary-gold); font-size: 1.2rem;"></i>
+                                            <strong>الأخ المجاهد / عبدالله صالح قايد جابر – ( حرب )</strong>
+                                            <span style="direction: ltr; display: inline-block; margin-right: 10px; font-family: monospace;">{+967 776 785 244}</span>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
