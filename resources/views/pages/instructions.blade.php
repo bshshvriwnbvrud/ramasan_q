@@ -49,9 +49,9 @@
                             <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#instructionsAccordion">
                                 <div class="accordion-body">
                                     <ul>
-                                        <li><strong>الوقت:</strong> تفتح المسابقة يومياً من الساعة 9:00 مساءً حتى 11:00 مساءً.</li>
+                                        <li><strong>الوقت:</strong> تفتح المسابقة يومياً من بعد محاضرة السيد القائد حفظه الله     : .</li>
                                         <li><strong>المدة:</strong> لا يمكن الدخول قبل أو بعد هذا الوقت.</li>
-                                        <li><strong>عدد الأسئلة:</strong> يختلف من يوم لآخر (عادة 20-30 سؤال).</li>
+                                        <li><strong>عدد الأسئلة:</strong> يختلف من يوم لآخر (عدد الأسئلة يختلف من يوم الاخر ).</li>
                                     </ul>
                                 </div>
                             </div>
@@ -142,7 +142,7 @@
 
                     <div class="alert alert-info mt-5 glass-card" style="border: 1px solid rgba(247, 183, 49, 0.5);">
                         <i class="bi bi-chat-dots-fill me-2" style="color: var(--primary-gold);"></i>
-                        للمزيد من الاستفسارات، يمكنك التواصل مع إدارة الكلية عبر البريد الإلكتروني: <strong>info@college.edu</strong>
+                        للمزيد من الاستفسارات، يمكنك التواصل معنا عبر خانة الاستفسارات الموجوده في الشريط العلوي    
                     </div>
                 </div>
             </div>

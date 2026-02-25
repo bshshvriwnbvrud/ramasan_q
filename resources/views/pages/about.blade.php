@@ -16,7 +16,7 @@
                     <div class="text-center mb-5">
                         <i class="bi bi-moon-stars-fill text-warning display-1" style="filter: drop-shadow(0 0 15px var(--primary-gold));"></i>
                         <h3 class="mt-3" style="font-family: 'Amiri', serif; color: white;">مسابقة رمضان الثقافية</h3>
-                        <p class="lead" style="color: rgba(255,255,255,0.8);">تنظيم كلية العلوم والآداب - جامعة تعز</p>
+                        <p class="lead" style="color: rgba(255,255,255,0.9);">تنظيم كلية المجتمع - صنعاء</p>
                     </div>
 
                     <div class="row mt-5">
@@ -29,8 +29,8 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold);">عن الكلية</h5>
-                                    <p style="color: rgba(255,255,255,0.8);">كلية العلوم والآداب هي إحدى كليات جامعة تعز، تأسست عام 1995م، وتسعى إلى تخريج كوادر مؤهلة في مختلف التخصصات العلمية والإنسانية.</p>
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">عن الكلية</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">كلية المجتمع صنعاء هي إحدى مؤسسات التعليم العالي التي تهدف إلى إعداد كوادر مؤهلة علمياً ومهنياً، وتسعى إلى تقديم برامج تعليمية متميزة تلبي احتياجات المجتمع المحلي.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold);">عن المسابقة</h5>
-                                    <p style="color: rgba(255,255,255,0.8);">مسابقة يومية طوال شهر رمضان المبارك، تهدف إلى تنمية المعرفة الثقافية والدينية وتعزيز الروح التنافسية بين الطلاب.</p>
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">عن المسابقة</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">مسابقة يومية طوال شهر رمضان المبارك، تهدف إلى تنمية المعرفة الثقافية والدينية وتعزيز الروح التنافسية بين الطلاب.</p>
                                 </div>
                             </div>
                         </div>
@@ -57,12 +57,12 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold);">الفريق المنظم</h5>
-                                    <p style="color: rgba(255,255,255,0.8);">يشرف على المسابقة نخبة من أعضاء هيئة التدريس بالكلية، بدعم من عمادة الكلية وإدارة الجامعة.</p>
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">الفريق المنظم</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">يشرف على المسابقة نخبة من أعضاء هيئة التدريس بالكلية، بدعم من عمادة الكلية وإدارة الجامعة.</p>
                                 </div>
                             </div>
                         </div>
-                        <!-- المطورون -->
+                        <!-- المطورون والمكتب -->
                         <div class="col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                             <div class="d-flex">
                                 <div class="me-3">
@@ -71,12 +71,11 @@
                                     </span>
                                 </div>
                                 <div>
-                                    <h5 style="color: var(--primary-gold);">المطورون</h5>
-                                    <p style="color: rgba(255,255,255,0.8);">تم تطوير هذا الموقع بواسطة فريق  من قسم تقنية المعلومات، بإشراف .  مكتب الملتقئ : محمد جابر وهاج .</p>
-                                    <ul class="list-unstyled" style="color: rgba(255,255,255,0.8);">
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> (776785244)عبد الله صالح قايد جابر  - مطور الموقع</li>
-                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> (774676892)محمد محمد قايد جابر - مطور الموقع</li>
-                                        
+                                    <h5 style="color: var(--primary-gold); font-family: 'Tajawal', sans-serif; font-weight: 700;">المطورون</h5>
+                                    <p style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif; line-height: 1.7;">تم تطوير هذا الموقع بواسطة فريق من قسم تقنية المعلومات، بإشراف مكتب الملتقئ: <strong class="text-warning">محمد جابر (وهاج)</strong>.</p>
+                                    <ul class="list-unstyled" style="color: rgba(255,255,255,0.9); font-family: 'Tajawal', sans-serif;">
+                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> <strong>عبد الله صالح قايد جابر</strong> <span style="direction: ltr; display: inline-block;">(776785244)</span> - مطور الموقع</li>
+                                        <li><i class="bi bi-person-circle me-2" style="color: var(--primary-gold);"></i> <strong>محمد محمد قايد جابر</strong> <span style="direction: ltr; display: inline-block;">(774676892)</span> - مطور الموقع</li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,6 +90,9 @@
 
 @push('styles')
 <style>
+    /* استيراد خط Tajawal */
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+
     /* تنسيق البطاقة الزجاجية */
     .glass-card {
         background: var(--glass-bg) !important;
@@ -99,6 +101,7 @@
         border: 1px solid var(--glass-border);
         border-radius: 40px;
         color: white;
+        font-family: 'Tajawal', sans-serif;
     }
 
     /* شارات زجاجية دائرية */
@@ -125,22 +128,27 @@
     h5 {
         font-weight: 700;
         margin-bottom: 0.8rem;
+        font-size: 1.3rem;
+        letter-spacing: 0.5px;
     }
 
     /* القوائم غير المرقمة */
     .list-unstyled li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.7rem;
         transition: transform 0.2s;
+        font-size: 1.1rem;
     }
 
     .list-unstyled li:hover {
         transform: translateX(-5px);
+        color: var(--primary-gold);
     }
 
     /* الخط الرئيسي */
     .lead {
-        font-size: 1.25rem;
-        font-weight: 400;
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: rgba(255,255,255,0.95) !important;
     }
 
     /* تحسين المظهر على الشاشات الصغيرة */
@@ -151,6 +159,12 @@
         }
         .badge-glass i {
             font-size: 1.5rem !important;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+        .list-unstyled li {
+            font-size: 1rem;
         }
     }
 </style>
